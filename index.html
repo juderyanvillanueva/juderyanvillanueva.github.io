@@ -1,108 +1,197 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html lang="en">
-<style>
-	.main 		{
-			 background-color: #f5f5f5;
-			 width: 50rem;
-			 position: absolute; left: 400px;
-			 border-style; groove;
-			}
-	img		{position: absolute; top: 11px; right:10px}
-
-	p, h1, h2	{margin: 0 11px 0 11px;}
-	h2		{background-color: gray;}
-	
-	.Personal-Information {text-align: center;}
-	table		{margin: 0 20px 0 285px;}
-	
-</style>
-		 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device=width, initial-scale1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title></title>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/83b661203b.js"></script>
 </head>
-
 <body>
-<div class="main">
-    <div>
-    
-      <div>
-        <h1>Jude Ryan D. Villanueva</h1>
-	<p>Information Technology Student</p>
-       	<img src = "https://lh3.googleusercontent.com/a-/AOh14Gjz5ekUzfXK06Q9CrNWYv6qDJzlLAQzAzsWv9kk=s288-p-rw-no" width="90" height="90" />
-	<p>juderyan.villanueva@lspu.edu.ph</p>
-	<p>+63 975 172 7061</p>
-      </div>
 
-
- <hr/>
- <div>
-  <h2>Profile</h2>
- </div>
-  <p>
-    I enjoy working with computers and have a strong interest in becoming a games
-    designer because I have good communication skills so I can share my ideas for the design of the
-    game. My key skills are learning and technology which is picking up on the latest improvements and
-    releases. I enjoy working hard to achieve my targets and can communicate well as part of a team as
-    well as enjoying working by myself.
-  </p>
- </div>
-
- <hr/>
- <div>
-  <h2>Skills</h2>
- </div>
-  <ul>
-    <li>HTML</li>
-    <li>C#</li>
-    <li>Java</li>
-    <li>Cinematoghrapy</li>
-    <li>Adobe After Effects</li>
-  </ul>
- <hr/>
- <div class="Personal-Information">
-  <h2>Personal Information</h2>
-
- <table>
-  <tr>
-    <td>AGE</td>
-    <td>19 years old</td>
-  <tr>
-    <td>DATE OF BIRTH</td>
-    <td>June 19, 2002</td>
-  <tr>
-    <td>PLACE OF BIRTH</td>
-    <td>Pakil, Laguna</td>
-  <tr>
-    <td>NATIONALITY</td>
-    <td>Filipino</td>
-  <tr>
-    <td>CIVIL STATUS</td>
-    <td>Single</td>
-  <tr>
-    <td>RELIGION</td>
-    <td>Roman Catholic</td>
-  <tr>
-    <td>HEIGHT</td>
-    <td>5 ft. 6 in.</td>
-  <tr>
-    <td>LANGUAGE SPOKEN</td>
-    <td>Tagalog, English</td>
-  <tr>
-    <td>MOTHER'S NAME</td>
-    <td>Veronica Villanueva</td>
-  <tr>
-    <td>OCCUPATION</td>
-    <td>Teacher</td>
-  <tr>
-    <td>FATHER'S NAME</td>
-    <td>Leo Villanueva</td>
-  <tr>
-    <td>OCCUPATION</td>
-    <td>Carpenter</td>
-</div>
+<div class="resume">
+   <div class="resume_left">
+     <div class="resume_profile">
+       <img src="https://lh3.googleusercontent.com/a-/AOh14Gjz5ekUzfXK06Q9CrNWYv6qDJzlLAQzAzsWv9kk=s432-p-no" alt="profile_pic">
+     </div>
+     <div class="resume_content">
+       <div class="resume_item resume_info">
+         <div class="title">
+           <p class="bold">IT Student</p>
+          
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+                <i class="fa-solid fa-map-location-dot"></i>
+             </div>
+             <div class="data">
+               Pakil, Laguna <br /> Philippines
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+             </div>
+             <div class="data">
+               +63 975 172 7061
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+             </div>
+             <div class="data">
+               juderyan.villanueva@lspu.edu.ph
+             </div>
+           </li>
+          
+         </ul>
+       </div>
+       <div class="resume_item resume_skills">
+         <div class="title">
+           <p class="bold">Programming Languages Known</p>
+         </div>
+         <ul>
+           <li>
+             <div class="skill_name">
+               HTML
+             </div>
+           </li>
+           <li>
+             <div class="skill_name">
+               CSS
+             </div>
+            
+           </li>
+           <li>
+             <div class="skill_name">
+               Python
+             </div>
+            
+           </li>
+           <li>
+             <div class="skill_name">
+               JS
+             </div>
+             
+           </li>
+           <li>
+             <div class="skill_name">
+               C#
+             </div>
+             
+           </li>
+         </ul>
+       </div>
+       <div class="resume_item resume_social">
+         <div class="title">
+           <p class="bold">Social Media</p>
+         </div>
+         <ul>
+           <li>
+             <div class="icon">
+               <i class="fab fa-facebook-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Facebook</p>
+               <p>Jude Villanueva</p>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+               <i class="fab fa-twitter-square"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Twitter</p>
+               <p>@jugudd</p>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+                <i class="fa-brands fa-instagram"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Instagram</p>
+               <p>@jdvllnv</p>
+             </div>
+           </li>
+           <li>
+             <div class="icon">
+                <i class="fa-brands fa-reddit-alien"></i>
+             </div>
+             <div class="data">
+               <p class="semi-bold">Reddit</p>
+               <p>u/Jude</p>
+             </div>
+           </li>
+         </ul>
+       </div>
+     </div>
+  </div>
+  <div class="resume_right">
+    <div class="resume_item resume_about">
+        <div class="title">
+           <p class="bold">Jude Villanueva</p>
+         </div>
+        <p class="p_prof">I enjoy working with computers and have a strong interest in becoming a games designer because I have good communication skills so I can share my ideas for the design of the game. My key skills are learning and technology which is picking up on the latest improvements and releases. I enjoy working hard to achieve my targets and can communicate well as part of a team as well as enjoying working by myself.</p>
+    </div>
+    <div class="resume_item resume_work">
+        <div class="title">
+           <p class="bold">Education</p>
+         </div>
+        <ul>
+            <li>
+                <div class="date">Elementary</div> 
+                <div class="info">
+                     <p class="semi-bold">Pakil Elementary School</p> 
+                  
+                </div>
+            </li>
+            <li>
+              <div class="date">High School</div>
+              <div class="info">
+                     <p class="semi-bold">Liceo De Pakil</p> 
+                  
+                </div>
+            </li>
+            <li>
+              <div class="date">Senior High School</div>
+              <div class="info">
+                     <p class="semi-bold">Laguna State Polytechnic University (Siniloan)</p> 
+                  
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_education">
+      <div class="title">
+           <p class="bold">Personal Information</p>
+         </div>
+      <ul>
+            <li>
+                <div class="date">Age: 20</div> 
+                <div class="date">Date of Birth: June 19, 2002</div>
+                <div class="date">Place of Birth: Pakil Laguna</div>  
+                <div class="date">Nationality: Filipino</div>
+                <div class="date">Civil Status: Single</div>
+                <div class="date">Religion: Roman Catholic</div>   
+                <div class="date">Height: 5ft. 6 in</div>
+                <div class="date">Language Spoken: Tagalog, English</div>  
+            </li>
+        </ul>
+    </div>
+    <div class="resume_item resume_hobby">
+      <div class="title">
+           <p class="bold">Hobbies</p>
+         </div>
+       <ul>
+         <li><i class="fa-solid fa-computer"></i>
+         <li><i class="fa-solid fa-basketball"></i>
+         <li><i class="fa-solid fa-guitar"></i></li>
+         <li><i class="fa-solid fa-camera-retro"></i></li>
+      </ul>
+    </div>
+  </div>
 </div>
 </body>
 </html>
